@@ -30,8 +30,8 @@ return [
     |
     */
 
-    'use_ico_only' => false,
-    'use_full_favicon' => false,
+    'use_ico_only' => true,
+    'use_full_favicon' =>true,
 
     /*
     |--------------------------------------------------------------------------
@@ -298,7 +298,7 @@ return [
         // ],
         [
             'type'         => 'fullscreen-widget',
-            'topnav_right' => true,
+            'topnav_right' => false,
         ],
 
         // Sidebar items:
@@ -330,11 +330,7 @@ return [
                      'icon' => 'fas fa-fw fa-user',
                    'url'  => 'index'
               ],
-            //   [
-            //     'text' => 'Chage Password',
-            //     'icon' => 'fas fa-fw fa-lock',
-            //   'url'  => 'index'
-            //   ]
+              
                 // [
                 //     'text'    => 'level_one',
                 //     'url'     => '#',

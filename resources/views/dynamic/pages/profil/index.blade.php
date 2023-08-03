@@ -5,6 +5,7 @@
 
 
 @section('content')
+@section('plugins.Datatables', true)
     <p>Halaman Profil</p>
 
     <!DOCTYPE html>
@@ -16,7 +17,7 @@
     </head>
     <body>
         <a href="{{url('create')}}" class="btn btn-primary my-4">+ Create</a>
-    <table id="example" class="table table-striped table-bordered" style="width:100%">
+    <table id="datatables" class="table table-striped table-bordered" style="width:100%">
     <thead>
             <tr>
                 <th>Name</th>
@@ -35,8 +36,8 @@
                 <td>61</td>
                 
                 <td>
-                <a href="" class="btn btn-primary">edit</a>
-                <a href="" class="btn btn-danger">edit</a>
+                <a href="{{url('edit')}}" class="btn btn-primary"><i>edit</i></a>
+                <a href="" class="btn btn-danger"><i>Delete</i></a>
 
                 </td>
             </tr>
@@ -50,6 +51,7 @@
     </script>
     </body>
     </html>
+   
     
 @stop
 
