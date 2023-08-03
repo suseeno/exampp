@@ -23,7 +23,7 @@
                 <th>Position</th>
                 <th>Email</th>
                 <th>Age</th>
-                <th>Start date</th>
+             
                 <th>Action</th>
             </tr>
         </thead>
@@ -33,7 +33,7 @@
                 <td>System Architect</td>
                 <td>Edinburgh</td>
                 <td>61</td>
-                <td>2011-04-25</td>
+                
                 <td>
                 <a href="" class="btn btn-primary">edit</a>
                 <a href="" class="btn btn-danger">edit</a>

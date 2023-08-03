@@ -330,11 +330,11 @@ return [
                      'icon' => 'fas fa-fw fa-user',
                    'url'  => 'index'
               ],
-              [
-                'text' => 'Chage Password',
-                'icon' => 'fas fa-fw fa-lock',
-              'url'  => 'index'
-              ]
+            //   [
+            //     'text' => 'Chage Password',
+            //     'icon' => 'fas fa-fw fa-lock',
+            //   'url'  => 'index'
+            //   ]
                 // [
                 //     'text'    => 'level_one',
                 //     'url'     => '#',

@@ -12,20 +12,29 @@
         <title>Document</title>
        </head>
        <body>
+            <a href="{{url('index')}}" class="text justify-center"> back</a>
        <form>
+
             <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
+                <label for="exampleInputEmail1">Name</label>
                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
+                <label for="exampleInputPassword1">Email</label>
                 <input type="text" class="form-control">
             </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="form-group">
+                <label for="exampleInputPassword1">age</label>
+                <input type="text" class="form-control">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Position</label>
+                <input type="text" class="form-control">
+            </div>
+           
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="riset" class="btn btn-danger">Reset</button>
+
             </form>
        </body>
        </html>
