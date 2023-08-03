@@ -15,4 +15,9 @@ class TestController extends Controller
         return view('dynamic.pages.profil.create');
 
     }
+    public function edit()
+    {
+        return view('dynamic.pages.profil.edit');
+
+    }
 }

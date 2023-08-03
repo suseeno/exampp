@@ -23,6 +23,8 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/index', [App\Http\Controllers\TestController::class, 'index'])->name('index');
 Route::get('/create', [App\Http\Controllers\TestController::class, 'create'])->name('create');
+Route::get('/edit', [App\Http\Controllers\TestController::class, 'edit'])->name('edit');
+
 
 
 // route::resource('index',SettingController::class);

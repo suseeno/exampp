@@ -12,7 +12,6 @@
         <title>Document</title>
        </head>
        <body>
-        <h5>halaman Create Data</h5>
             <a href="{{url('index')}}" class="btn btn-success my-3"> back</a>
        <form>
 
