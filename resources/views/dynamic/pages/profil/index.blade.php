@@ -24,6 +24,7 @@
                 <th>Position</th>
                 <th>Email</th>
                 <th>Age</th>
+                <th>Status</th>
              
                 <th>Action</th>
             </tr>
@@ -34,6 +35,9 @@
                 <td>System Architect</td>
                 <td>Edinburgh</td>
                 <td>61</td>
+                <td class="btn btn-success">active</td>
+                <td class="btn btn-danger">Draf</td>
+
                 
                 <td>
                 <a href="{{url('edit')}}" class="btn btn-primary"><i>edit</i></a>
